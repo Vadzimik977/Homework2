@@ -95,10 +95,10 @@ def uniques(repeating_string):
 # Проверка рассчитана только на английские буквы.
 
 def count_string_capitalization(mixed_string):
-    if type(mixed_string) == str: #убираем все результаты кроме строчных
-        big = 0 #создаем пустые переменные
+    if type(mixed_string) == str: 
+        big = 0 
         small = 0
-        for i in mixed_string: #создаем цикл, в котором создаем условие для подсчета строчных и прописных букв. Помещаем маленькие в одну переменную, а большие в другую
+        for i in mixed_string: 
             if i.islower():
                 small += 1
             elif i.isupper():
