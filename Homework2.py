@@ -25,8 +25,6 @@ def common_price(m, n, s, l):
         return False
     elif m<0 or n<0 or s<=0 or l<0: #убираем отрицательные значения из выборки
         return False
-    elif s==0:
-        return False
     elif m==0 and n==0:
         return False
     else:
